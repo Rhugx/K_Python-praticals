@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload a File</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 350px;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 15px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Upload a File</h2>
+
+    <form action="/cgi-bin/save_and_show.py" method="post" enctype="multipart/form-data">
+        <label for="uploaded_file">Choose a file to upload:</label><br>
+        <input type="file" id="uploaded_file" name="uploaded_file" required title="Upload a file">
+        <br><br>
+        <button type="submit">Upload & Show</button>
+    </form>
+
+</body>
+</html>

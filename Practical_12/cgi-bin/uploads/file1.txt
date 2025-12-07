@@ -1,0 +1,5 @@
+Hello, this is file 1.
+It contains a few lines.
+Python threading example.
+Count lines quickly.
+That's it for file 1.
