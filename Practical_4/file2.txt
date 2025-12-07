@@ -1,0 +1,5 @@
+This is file 2.
+It also contains some lines.
+Thread 2 will read this.
+Multithreading makes it faster.
+End of file 2.
